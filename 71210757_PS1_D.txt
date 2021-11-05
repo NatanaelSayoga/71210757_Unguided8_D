@@ -1,0 +1,11 @@
+> 2021+2022+2023+...+4019+4020 = ...?
+> deret di atas merupakan deret aritmatika dengan beda tiap suku sama dengan 1 dan suku pertama 2021
+> b = 1, a = 2021, un = 4020
+> un = a + b * (n - 1)
+  4020 = 2021 + 1 * (n - 1)
+  1999 = n - 1
+  n = 2000, diketahui bahwa ada 2000 suku pada deret tersebut, jumlah deret dapat dicari dengan:
+>sn = n/2 * (un + a)
+ sn = 2000/2 * (4020 + 2021)
+ sn = 1000 * (6041)
+ sn = 6041000
