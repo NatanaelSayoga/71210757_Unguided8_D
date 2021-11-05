@@ -1,0 +1,37 @@
+Pseudo code untuk factorial:
+>faktorial adalah bilangan bulat positif yang dilambangkan dengan n! 
+>faktorial merupakan produk perkalian semua bilangan asli yang kurang dari atau sama dengan n
+>misalnya: 5! = 5 * 4 * 3 * 2 * 1 = 120
+
+dari pengertian di atas akan coba dibentuk pseudo code untuk mencari nilai faktorial:
+>karena salah satu syarat faktorial adalah bilangan bulat positif, harus dicek dahulu apakah input kita merupakan bilangan positif
+1  -->start
+2  -->read number, if number<0 then write "tidak ditemukan" else go to step 3
+
+kemudian akan kita lakukan eksplorasi pada perhitungan matematis 5! untuk menentukan langkah selanjutnya:
+>5! = 5 * 4 * 3 * 2 * 1 = 120
+>atau : 5! -->       1 = 1                 (I)
+                    1 * 2 = 2              (II)
+                       2 * 3 = 6           (III)
+                         6 * 4 = 24        (IV)
+                           24 * 5 = 120    (V) selesai
+>didapat bahwa tiap pengulangan langkah perkalian, kita menyimpan nilai produk hasil kali pada langkah sebelumnya untuk dipakai di langkah selanjutnya
+>didapat suatu variabel pengulangan, u yang tiap langkahnya bertambah menjadi u = u + 1,  dan varibel produk, p = 1 * u 
+
+3  -->set p=1, u=1
+4  -->if u <= number 
+5     -->p = p*u
+6     -->update u = u + 1, back to step 4
+7  -->else print p
+8  -->stop
+
+didapatkan pseudo code:
+program mencari_factorial
+
+deklarasi
+number, u, p = integer
+
+read number, if number<0 then write "tidak ditemukan" 
+             else set p=1, u=1
+                 if u <= number, p*u, update u = u + 1, back to step 4
+             else print p
