@@ -1,0 +1,10 @@
+>terdapat 7 buah gelas dan 4 bak
+>bak 1 terhubung dengan pipa gelas 1, 2, 3 dan dialiri air
+>bak 2 terhubung dengan bak 3 dan pipa gelas 4, 5, 7
+>bak 3 yang terhubung dengan pipa gelas 6
+>saat air dialirkan, air mengalir ke bak 1 terlebih dahulu
+>bak 1 terhubung ke pipa 1, 2, 3, tetapi karena pipa tertutup, tidak ada gelas yang terisi
+>setelah bak dan pipa di sisi kiri gambar terisi air, air mengalir ke bak 2
+>dari bak 2, air mengalir terlebih dahulu ke bak 3, karena bak 3 tertutup maka gelas 6 tidak terisi
+>air kemudian mengalir dari bak 2 ke pipa gelas 7, karena pipa tertutup gelas 7 tidak terisi
+>air akhirnya mengalir ke pipa yang terhubung ke gelas 4 dan 5, karena pipa 5 tertutup dan pipa 4 terbuka, gelas 4 lah yang terisi penuh
